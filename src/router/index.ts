@@ -1,5 +1,6 @@
 import type { RouteRecordRaw } from 'vue-router'
 import { createRouter, createWebHistory } from 'vue-router'
+import Layout from '~/layout/index.vue'
 
 // 存放固定的路由
 const defaultRouterList: Array<RouteRecordRaw> = [
@@ -7,6 +8,11 @@ const defaultRouterList: Array<RouteRecordRaw> = [
     path: '/login',
     name: 'login',
     component: () => import('~/pages/login/index.vue'),
+  },
+  {
+    path: '/',
+    name: 'Home',
+    component: Layout,
   },
 ]
 
