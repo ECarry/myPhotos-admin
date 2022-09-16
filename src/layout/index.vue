@@ -1,10 +1,14 @@
 <script setup>
 import SideNav from './components/SideNav.vue'
+import Header from './components/Header.vue'
 </script>
 
 <template>
   <div class="layout-sidenav">
     <SideNav />
+  </div>
+  <div class="layout-content">
+    <Header />
   </div>
 </template>
 
@@ -13,10 +17,11 @@ import SideNav from './components/SideNav.vue'
   position: absolute;
   top: 0;
   left: 0;
+}
 
-  width: 260px;
-  height: 100vh;
-
-  background: #1f1d31;
+.layout-content {
+  width: calc(100% - 260px);
+  min-height: 100vh;
+  padding: 0 0 0 260px;
 }
 </style>

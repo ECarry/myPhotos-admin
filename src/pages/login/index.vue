@@ -17,8 +17,4 @@
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
 }
-p {
-  font-size: $font-size;
-  color: hsla(0, 0%, 100%, .76);
-}
 </style>

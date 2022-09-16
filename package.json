@@ -13,6 +13,7 @@
   "dependencies": {
     "@vueuse/core": "^9.2.0",
     "pinia": "^2.0.22",
+    "remixicon": "^2.5.0",
     "vue": "^3.2.38",
     "vue-router": "^4.1.5"
   },

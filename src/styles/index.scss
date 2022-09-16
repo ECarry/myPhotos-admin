@@ -2,3 +2,13 @@
 @import './font-family.scss';
 @import './theme/index.scss';
 @import './reset.scss';
+
+html,
+body {
+  background: #f4f5fa;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}
